@@ -8,15 +8,15 @@ def match_prompt():
     try:
         data = request.get_json()
 
-        # Vérifier si le JSON est bien formé
+      
         if not data:
-            return jsonify({"error": "Missing Data"}), 400
+            return jsonify({"error": "Missing Data"}), 400.   # Vérifier si le JSON est bien formé
 
-        # Vérifier la présence des champs obligatoires
+        
         required_fields = ["situation", "level", "file_type", "data"]
         for field in required_fields:
             if field not in data:
-                return jsonify({"error": "Missing Data"}), 400
+                return jsonify({"error": "Missing Data"}), 400 # Vérifier la présence des champs obligatoires
 
         # Obtenir le prompt correspondant
         prompt = get_prompt(
