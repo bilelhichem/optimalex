@@ -128,13 +128,6 @@ curl -X POST http://127.0.0.1:5000/match_prompt \
 
 ---
 
-## 🧰 Technologies utilisées
-
-* **Python 3.10+**
-* **Flask 3.0.3** (framework web léger)
-* **Postman / cURL** pour tester l’API
-
----
 
 
 ## ✨ Auteur
@@ -142,7 +135,7 @@ curl -X POST http://127.0.0.1:5000/match_prompt \
 👤 **Lakhmi Hichem Billal**
 🎓 Étudiant en informatique, passionné par le développement web & mobile, l’IA et les systèmes distribués.
 📧 Email : [lakhmihichembillal@gmail.com](mailto:lakhmihichembillal@gmail.com)
-🌐 GitHub : [https://github.com/<your_username>](https://github.com/bilelhichem)
+🌐 GitHub : [https://github.com/<LAKHMI HICHEM BILLAL>](https://github.com/bilelhichem)
 
 ---
 
